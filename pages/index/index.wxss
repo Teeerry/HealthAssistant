@@ -1,0 +1,40 @@
+/* pages/index/index.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: crimson;
+}
+
+.usermotto {
+  margin-top: 100px;
+  color: crimson
+}
+
+.begininfo {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*按钮样式*/
+.btn {
+  width: 70%;
+  margin-top: 30rpx; 
+  border-radius: 40rpx;
+  background-color: #FFCC00;
+  color: #FFF;
+}

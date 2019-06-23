@@ -1,0 +1,26 @@
+<view class="index_image">
+   <image style="width: {{screenWidth}}px; height:{{screenHeight/2}}px; background-color: #eeeeee;" mode="widthFix" src="../../index.png"></image>
+</view>
+
+<view class="btn-area">
+    <text space="ensp">\n</text>
+</view>
+<!--配置首页文字 -->
+<view class="btn-area">
+    <text space="ensp">    {{text}}</text>
+</view>
+<!--配置首页按钮 -->
+<view class="btn-area">
+    <text space="ensp">\n</text>
+</view>
+
+<button class='btn' type="primary" bindtap="beginMode1"> 测试一 </button>
+
+<view class="btn-area">
+    <text space="ensp">\n</text>
+</view>
+
+<button type="primary" class='btn' bindtap="beginMode2"> 测试二 </button>
+
+
+

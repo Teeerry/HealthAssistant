@@ -1,0 +1,21 @@
+<!--mode2.wxml-->
+<view>
+  <text>{{Description}}</text>
+</view>
+
+<view class="inputView" style="margin-top: 40% ">
+<input class="input" type="text" placeholder="{{Question}}" value="{{Empty}}" placeholder-style="color: red" bindinput="{{Inputhandler}}" />
+</view>
+
+<!--输入确认按钮-->
+<button style="margin-left: 30rpx; margin-right: 30rpx; margin-top: 50rpx; border-radius: 40rpx" type="primary" bindtap="nextbutton">确认</button>
+
+<view>
+  <text>WHR:  {{WHR}}\n</text>
+  <text>Waist: {{Waist}}\n</text>
+  <text>Age: {{Age}}\n</text>
+  <text>Hypentension: {{Hypentension}}\n</text>
+  <text>FamilyHistory: {{FamilyHistory}}\n</text>
+  <text>CurrentState: {{CurrentState}}\n</text>
+  <text>Risk: {{Risk}}\n</text>
+</view>

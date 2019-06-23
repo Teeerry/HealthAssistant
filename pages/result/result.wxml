@@ -1,0 +1,10 @@
+<!--result.wxml-->
+<view>
+  <text>WHR:  {{WHR}}\n</text>
+  <text>Waist: {{Waist}}\n</text>
+  <text>Age: {{Age}}\n</text>
+  <text>Hypentension: {{Hypentension}}\n</text>
+  <text>FamilyHistory: {{FamilyHistory}}\n</text>
+  <text>CurrentState: {{CurrentState}}\n</text>
+  <text>Risk: {{Risk}}\n</text>
+</view>

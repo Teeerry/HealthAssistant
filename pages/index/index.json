@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "糖尿病风险评估系统",
+  "navigationBarBackgroundColor": "#BBDEF8",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true
+}
